@@ -12,5 +12,7 @@
         echo "Hoje é dia " . date("d/M/Y");
         echo "e a hora atual é " . date("G:i:s:T")
     ?>
+
+    <? echo "test"?>  <!-- Essa é a short open tag, e deve ser habilitada em php.ini para funcionar-->
 </body>
 </html>
