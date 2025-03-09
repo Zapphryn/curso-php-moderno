@@ -3,15 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me livrando da maldição</title>
+    <title>Dados do Servidor</title>
 </head>
 <body>
-    <h1>
-        <?php 
-            echo "Olá, Mundo!\u{1F30E}<br>";
-            print "Me livrei da maldição!"
-        ?>
-    </h1>
-    <p>Vamos tentar nos livrar da maldição</p>
+    <h1>Dados do Servidor</h1>
+    <?php 
+        phpinfo();
+    ?>
 </body>
 </html>
