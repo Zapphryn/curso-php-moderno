@@ -13,6 +13,23 @@
         echo "e a hora atual é " . date("G:i:s:T")
     ?>
 
-    <? echo "test"?>  <!-- Essa é a short open tag, e deve ser habilitada em php.ini para funcionar-->
+    <? echo "test<br>"?>  <!-- Essa é a short open tag, e deve ser habilitada em php.ini para funcionar-->
+
+    <?php 
+        $nome = "David";
+        echo "Muito prazer, $nome!";  // Variável
+        $nome = "Camila";
+        echo "<br>Agora a variável nome se chama $nome!";
+
+        const PAIS = "Brasil";
+        echo "<br>O país que nasci foi o " . PAIS;
+
+        $nomeCompletoCliente = "Camel Case";
+        $telefone_contato_fornecedor = "Snake Case";
+        $nomecursosuperior = "";
+
+        // PAIS = "EUA";  Gera um erro ao tentar atribuir um valor a uma constante
+
+    ?>
 </body>
 </html>
